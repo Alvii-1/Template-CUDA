@@ -1,3 +1,5 @@
+I built this template with the idea of a minimal CUDA setup. Just CMake, CUDA, and C++. Feel free to re-use for your own project, its pretty barebones by design.
+
 HOW TO COMPILE, BUILD AND RUN THE PROJECT:
 
 If this is the C++/CUDA template, please copy the entire folder, rename it, and continue.
@@ -51,3 +53,4 @@ Organization:
     "version": 4
 }
 ```
+
