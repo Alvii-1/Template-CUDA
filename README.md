@@ -22,7 +22,7 @@ Organization:
 4. To compile code "cl main.cpp" to run it "main.exe"
 
 
-### CMake Way (Recommended)
+### CMake Way
 1. Ensure the CMakeLists.txt is properly updated with a new project name
 2. Type "cmake -S . -B build" into PS to configure the project
 3. Type "cmake --build build" into PS to build the project
@@ -57,6 +57,7 @@ Organization:
     "version": 4
 }
 ```
+
 
 
 
