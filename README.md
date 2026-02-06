@@ -26,3 +26,28 @@ Organization:
 
 --- | Powershell Function (Simplest)
 1. Type ".\run.ps1" in the terminal and it should accomplish everything from CMake
+
+--- | Details on .vscode/c_cpp_properties.json
+```
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/include/**",
+                "${workspaceFolder}/src/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.26100.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
+```
