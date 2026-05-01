@@ -5,6 +5,7 @@ I built this template with the idea of a minimal CUDA project setup. Just CMake,
 Note: 
 - Update any mention of "project" in the CMakeLists.txt file for organization of your project
 - Simply use ```git clone https://github.com/Alvii-1/Template-CUDA.git .``` to clone the repository locally
+- When adding code files, make sure to rerun with cleanrun.ps1 instead of just run.ps1
 
 Organization:
 - /src: main c++ files
@@ -12,7 +13,7 @@ Organization:
 - /kernels: all GPU code files
 
 ### Immediately After Cloning
-After running git clone in your specified directory, run rm -r -fo .git to remove the template's existing git history. Then you're good to go with using the template. This way you have a fresh git history after cloning.
+After running git clone in your specified directory, run ```rm -r -fo .git``` to remove the template's existing git history. Then you're good to go with using the template. This way you have a fresh git history after cloning.
 
 ### Running CMake Way
 1. Ensure the CMakeLists.txt is properly updated with a new project name
