@@ -23,6 +23,10 @@ set(ALL_SOURCES ${CPP_SOURCES} ${CUDA_SOURCES})
 # --- | Add executable from all sources
 add_executable(project ${ALL_SOURCES})
 
+# --- | Required for hybrid linking below
+find_package(CUDAToolkit REQUIRED)
+target_link_libraries(project PRIVATE CUDA::cudart)
+
 # --- | Include directories
 target_include_directories(project PRIVATE include)
 
@@ -30,6 +34,7 @@ target_include_directories(project PRIVATE include)
 set_target_properties(project PROPERTIES
     CUDA_SEPARABLE_COMPILATION OFF
     CUDA_ARCHITECTURES 89
+    CUDA_RUNTIME_LIBRARY hybrid
 )
 
 # --- | Force all code to use MD (release) or MDd (debug) runtime
