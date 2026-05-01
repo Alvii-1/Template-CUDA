@@ -1,4 +1,4 @@
-I built this template with the idea of a minimal CUDA project setup. Just CMake, CUDA, and C++. Feel free to re-use for your own project, its pretty barebones by design.
+I built this template with the idea of a minimal CUDA project setup. Just CMake, CUDA, and C++. Feel free to re-use for your own project, its pretty barebones by design. This is only for Windows and the MSVC compiler.
 
 ## How to compile and run the project:
 
