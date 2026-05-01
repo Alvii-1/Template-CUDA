@@ -1,5 +1,4 @@
 #include <cuda_runtime.h>
-#include <iostream>
 
 __global__ void helloKernel()
 {
