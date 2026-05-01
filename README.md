@@ -17,9 +17,9 @@ After running git clone in your specified directory, run ```rm -r -fo .git``` to
 
 ### Running CMake Way
 1. Ensure the CMakeLists.txt is properly updated with a new project name
-2. Type "cmake -S . -B build" into PS to configure the project
-3. Type "cmake --build build" into PS to build the project
-4. Type ".\build\Debug\project.exe" to run the project, make sure to change "project" to match txt
+2. Type ```cmake -S . -B build``` into PS to configure the project
+3. Type ```cmake --build build``` into PS to build the project
+4. Type ```.\build\Debug\project.exe``` to run the project, make sure to change "project" to match txt
 
 
 ### Running With Powershell Function (Simplest)
