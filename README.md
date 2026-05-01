@@ -6,8 +6,7 @@ If this is the C++/CUDA template, please copy the entire folder, rename it, and 
 
 Note: 
 - Update any mention of "project" in the CMakeLists.txt file
-- If the template project has a "build" folder, delete it before building.
-- Also copy the .vscode folder between projects if you want to re-copy this again.
+- Simply use ```git clone https://github.com/Alvii-1/Template-CUDA.git``` to clone the repository locally
 
 Organization:
 - /src: main c++ files
@@ -15,7 +14,7 @@ Organization:
 - /kernels: all GPU code files
 
 ### Immediately After Cloning
-After running git clone <url> . in your specified directory, run rm -r -fo .git
+After running git clone in your specified directory, run rm -r -fo .git to remove previous git files. Then you're good to go with using the template.
 
 ### Running the Manual Way
 1. Open VS Code
