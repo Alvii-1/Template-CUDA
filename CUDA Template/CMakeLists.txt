@@ -15,7 +15,7 @@ set(CMAKE_CUDA_STANDARD_REQUIRED ON)
 # --- | Output exe in build/
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 
-# Collect sources
+# --- | Collect sources
 file(GLOB_RECURSE CPP_SOURCES "src/*.cpp")
 file(GLOB_RECURSE CUDA_SOURCES "kernels/*.cu")
 set(ALL_SOURCES ${CPP_SOURCES} ${CUDA_SOURCES})
