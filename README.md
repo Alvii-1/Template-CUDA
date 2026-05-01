@@ -2,11 +2,9 @@ I built this template with the idea of a minimal CUDA project setup. Just CMake,
 
 ## How to compile and run the project:
 
-If this is the C++/CUDA template, please copy the entire folder, rename it, and continue.
-
 Note: 
-- Update any mention of "project" in the CMakeLists.txt file
-- Simply use ```git clone https://github.com/Alvii-1/Template-CUDA.git``` to clone the repository locally
+- Update any mention of "project" in the CMakeLists.txt file for organization of your project
+- Simply use ```git clone https://github.com/Alvii-1/Template-CUDA.git .``` to clone the repository locally
 
 Organization:
 - /src: main c++ files
@@ -14,13 +12,7 @@ Organization:
 - /kernels: all GPU code files
 
 ### Immediately After Cloning
-After running git clone in your specified directory, run rm -r -fo .git to remove previous git files. Then you're good to go with using the template.
-
-### Running the Manual Way
-1. Open VS Code
-2. Click the dropdown arrow by the terminal, select "Command Prompt"
-3. Type "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" into cmd
-4. To compile code "cl main.cpp" to run it "main.exe"
+After running git clone in your specified directory, run rm -r -fo .git to remove the template's existing git history. Then you're good to go with using the template. This way you have a fresh git history after cloning.
 
 ### Running CMake Way
 1. Ensure the CMakeLists.txt is properly updated with a new project name
