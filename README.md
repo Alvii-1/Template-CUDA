@@ -5,7 +5,7 @@ I built this template with the idea of a minimal CUDA project setup. Just CMake,
 Note: 
 - Update any mention of "project" in the CMakeLists.txt file for organization of your project
 - Simply use ```git clone https://github.com/Alvii-1/Template-CUDA.git .``` to clone the repository locally
-- When adding code files, make sure to rerun with cleanrun.ps1 instead of just run.ps1
+- Rebuilding the project can be done with ```cleanrun.ps1``` instead of just ```run.ps1```
 
 Organization:
 - /src: main c++ files
@@ -19,11 +19,11 @@ After running git clone in your specified directory, run ```rm -r -fo .git``` to
 1. Ensure the CMakeLists.txt is properly updated with a new project name
 2. Type ```cmake -S . -B build``` into PS to configure the project
 3. Type ```cmake --build build``` into PS to build the project
-4. Type ```.\build\Debug\project.exe``` to run the project, make sure to change "project" to match txt
+4. Type ```.\build\Debug\project.exe``` to run the project, make sure to change "project" to something more descriptive
 
 
 ### Running With Powershell Function (Simplest)
-1. Type ".\run.ps1" in the terminal and it should accomplish everything from CMake
+1. Type ```.\run.ps1``` in the terminal and it should accomplish everything from CMake
 
 
 ### Details on .vscode/c_cpp_properties.json
