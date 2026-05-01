@@ -5,14 +5,14 @@ I built this template with the idea of a minimal CUDA project setup. Just CMake,
 If this is the C++/CUDA template, please copy the entire folder, rename it, and continue.
 
 Note: 
-    * Update any mention of "project" in the CMakeLists.txt file
-    * If the template project has a "build" folder, delete it before building.
-    * Also copy the .vscode folder between projects if you want to re-copy this again.
+- Update any mention of "project" in the CMakeLists.txt file
+- If the template project has a "build" folder, delete it before building.
+- Also copy the .vscode folder between projects if you want to re-copy this again.
 
 Organization:
-    * /src: main c++ files
-    * /include: header files, both c++ and cu declarations
-    * /kernels: all GPU code files
+- /src: main c++ files
+- /include: header files, both c++ and cu declarations
+- /kernels: all GPU code files
 
 ### Immediately After Cloning
 After running git clone <url> . in your specified directory, run rm -r -fo .git
