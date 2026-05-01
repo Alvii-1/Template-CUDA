@@ -1,6 +1,6 @@
 #include <iostream>
 #include "scream.h"
-#include "kernel1.h"
+#include "kernel1.cuh"
 
 int main()
 {
