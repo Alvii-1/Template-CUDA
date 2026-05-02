@@ -1,6 +1,6 @@
 I built this template with the idea of a minimal CUDA project setup. Just CMake, CUDA, and C++. Feel free to re-use for your own project, its pretty barebones by design. This is only for Windows and the MSVC compiler.
 
-## How to compile and run the project:
+## How to Compile and Run the Project:
 
 Note: 
 - Update any mention of "project" in the CMakeLists.txt file for organization of your project
